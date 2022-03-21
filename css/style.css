@@ -84,7 +84,7 @@ h5 {
 }
 
 p {
-    font-size: 19px;
+    font-size: 15px;
 }
 
 /* Class */
@@ -182,11 +182,13 @@ p {
 }
 
 #menu ul li a {
-    color: #fff;
+    color: #dfdfdf;
     margin: 0 10px;
     padding: 0 8px;
 }
-
+#menu ul li a:hover {
+    color: #fff;
+}
 #menu #logo a img {
     width: 60%;
     margin-top: 4px;
