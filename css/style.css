@@ -1,4 +1,4 @@
-@font-face {
+	@font-face {
     font-family: "aviny";
     src: url('../fonts/aviny/aviny-700.woff2') format('woff2');
 }
@@ -299,7 +299,7 @@ form {
 
 
 .title-services {
-    width: 45%;
+    width: 85%;
     display: block;
     margin: 100px auto;
     text-align: center;
@@ -321,7 +321,8 @@ form {
     border-radius: 20px;
     box-shadow: 0px 0px 13px #cacaca;
     padding: 30px;
-    margin: 20px;
+    margin: 20px;   
+	text-align: justify;
 }
 
 .card:hover {
@@ -1221,4 +1222,27 @@ footer>div.content-footer {
         width: 90%;
         margin: 0;
     }
+}
+@media (min-width: 320px) and (max-width: 768px){
+h1 {
+    font-size: 1.7441em;
+	text-align:center;
+}
+h3{
+	text-align:center;
+}
+.install{
+	    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.install .install-section-right{
+	width:90%;
+}
+.install-section-left{
+	display:none;
+}
 }
